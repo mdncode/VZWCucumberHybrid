@@ -1,0 +1,14 @@
+2019-05-26 13:57:47 INFO  Base:13 - Begin Test StartWebDriver
+2019-05-26 13:57:49 INFO  Base:18 - Step1 verifyLoginPageExists
+2019-05-26 13:57:50 INFO  Base:23 - Step2 enterWrongLogin
+2019-05-26 13:57:51 INFO  Base:19 - End of Test
+2019-05-26 13:57:51 INFO  Base:13 - Begin Test StartWebDriver
+2019-05-26 13:57:52 INFO  Base:15 - Step4.1 verifyLoginPageExists4
+2019-05-26 13:57:53 INFO  Base:19 - End of Test
+2019-05-26 13:57:55 INFO  Base:13 - Begin Test StartWebDriver
+2019-05-26 13:57:56 INFO  Base:15 - Step4.1 verifyLoginPageExists456
+2019-05-26 13:57:58 INFO  Base:20 - Step4.2 enterCorrectLogin456
+2019-05-26 13:57:58 INFO  Base:19 - End of Test
+2019-05-26 13:57:58 INFO  Base:13 - Begin Test StartWebDriver
+2019-05-26 13:57:59 INFO  Base:18 - Step7 smartphonesPageExists
+2019-05-26 13:58:00 INFO  Base:19 - End of Test
