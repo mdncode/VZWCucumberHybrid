@@ -26,7 +26,7 @@ public class Base {
 		prop = new Properties(); 						
 		try {											
 			FileInputStream fle=new FileInputStream		
-			("C:\\Users\\Minh\\workspace\\VZWCucumberHybrid\\src\\test\\java\\com\\VZW\\config\\Config.properties");
+			("C:\\Users\\Minh\\workspace\\VZWCucumberHybrid\\src\\main\\java\\com\\VZW\\config\\Config.properties");
 			prop.load(fle); 							
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
