@@ -12,7 +12,12 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<maven.compiler.source>1.6</maven.compiler.source>
+<maven.compiler.target>1.6</maven.compiler.target>
   </properties>
+  
+
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
@@ -144,7 +149,7 @@
 	   		<groupId>org.testng</groupId>
 	   		<artifactId>testng</artifactId>
 	  		<version>7.0.0-beta3</version>
-	   		<scope>test</scope>
+<!-- 	   		<scope>test</scope> -->
 		</dependency>
 		   
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
