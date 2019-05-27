@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2136345900,
+  "duration": 1960743800,
   "status": "passed"
 });
 formatter.scenario({
@@ -136,12 +136,42 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TEST789.smartphonesPageExists()"
+  "location": "Test789Test.smartphonesPageExists()"
 });
 formatter.result({
-  "duration": 5775477000,
+  "duration": 6730592500,
   "status": "passed"
 });
 formatter.match({
-  "location": "TEST789.selectGalaxy10SPlus()"
+  "location": "Test789Test.selectGalaxy10SPlus()"
+});
+formatter.result({
+  "duration": 5056576900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test789Test.pickColor()"
+});
+formatter.result({
+  "duration": 679336300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test789Test.addtoCart()"
+});
+formatter.result({
+  "duration": 607603400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test789Test.verifyResult789()"
+});
+formatter.result({
+  "duration": 93916700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 705263500,
+  "status": "passed"
+});
 });

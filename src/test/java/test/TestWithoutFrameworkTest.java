@@ -1,4 +1,4 @@
-package com.VZW.TestDefTestcases;
+package test;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
@@ -8,7 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TestWithoutFramework {
+public class TestWithoutFrameworkTest {
 	@Test
 	public void Junit() {	
 ////1.Launch website		

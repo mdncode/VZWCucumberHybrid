@@ -1,4 +1,4 @@
-package com.VZW.TestDefTestcases;
+package test;
 import org.junit.Assert;
 
 import com.VZW.PageObjectClasses.Page4;
@@ -6,7 +6,7 @@ import com.VZW.base.Base;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-public class TEST4 extends Base{
+public class TEST4Test extends Base{
 
 //4.login correct (use Dynamic elements this time)	
 	Page4 objectPage4 = new Page4(); 

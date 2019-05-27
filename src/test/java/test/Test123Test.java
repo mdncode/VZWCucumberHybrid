@@ -1,4 +1,4 @@
-package com.VZW.TestDefTestcases;
+package test;
 
 import org.junit.Assert;
 
@@ -9,7 +9,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class TEST123 extends Base{ 
+public class Test123Test extends Base{ 
 //1.Launch website		
 	Page123 objectPage123 = new Page123(); 
 	

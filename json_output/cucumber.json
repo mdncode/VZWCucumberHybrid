@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#@Step123"
+          },
+          {
+            "line": 4,
+            "value": "#Scenario: Negative Login"
+          },
+          {
+            "line": 5,
+            "value": "#Given \tloginPageExists"
+          },
+          {
+            "line": 6,
+            "value": "#When \tenterWrongLogin"
+          },
+          {
+            "line": 7,
+            "value": "#Then \tverifyLoginScreenshotIfFailed"
+          },
+          {
+            "line": 8,
+            "value": "#"
+          },
+          {
+            "line": 9,
+            "value": "#"
+          },
+          {
+            "line": 10,
+            "value": "#@Step4"
+          },
+          {
+            "line": 11,
+            "value": "#Scenario: Positive Login with Dynamic Xpath"
+          },
+          {
+            "line": 12,
+            "value": "#Given \tloginPageExists4"
+          },
+          {
+            "line": 13,
+            "value": "#Then \tenterCorrectLogin"
+          },
+          {
+            "line": 14,
+            "value": "#Then \tverifyLoginScreenshotIfFailed4"
+          },
+          {
+            "line": 15,
+            "value": "#"
+          },
+          {
+            "line": 16,
+            "value": "#"
+          },
+          {
+            "line": 17,
+            "value": "#@Step456"
+          },
+          {
+            "line": 18,
+            "value": "#Scenario: Login and Go to Smartphones"
+          },
+          {
+            "line": 19,
+            "value": "#Given \tloginPageExists456"
+          },
+          {
+            "line": 20,
+            "value": "#When \tenterCorrectLogin456"
+          },
+          {
+            "line": 21,
+            "value": "#When \tgotoWireless"
+          },
+          {
+            "line": 22,
+            "value": "#And \tselectSmartphones"
+          },
+          {
+            "line": 23,
+            "value": "#And \tverifyResult456"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 1960743800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTest.before()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Select SamsungS10+",
+        "description": "",
+        "id": "vzwcucumberhybrid;select-samsungs10+",
+        "after": [
+          {
+            "result": {
+              "duration": 705263500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTest.screenShotIfFailed(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6730592500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "smartphonesPageExists",
+            "match": {
+              "location": "Test789Test.smartphonesPageExists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5056576900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "selectGalaxy10SPlus",
+            "match": {
+              "location": "Test789Test.selectGalaxy10SPlus()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 679336300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "pickColor",
+            "match": {
+              "location": "Test789Test.pickColor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607603400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "addtoCart",
+            "match": {
+              "location": "Test789Test.addtoCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93916700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verifyResult789",
+            "match": {
+              "location": "Test789Test.verifyResult789()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@Step789"
+          }
+        ]
+      }
+    ],
+    "name": "VZWCucumberHybrid",
+    "description": "",
+    "id": "vzwcucumberhybrid",
+    "keyword": "Feature",
+    "uri": "feature.feature"
+  }
+]

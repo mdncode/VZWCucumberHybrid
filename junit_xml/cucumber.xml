@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.834033">
+    <testcase classname="VZWCucumberHybrid" name="Select SamsungS10+" time="15.834033">
+        <system-out>
+            <![CDATA[Given smartphonesPageExists.................................................passed
+When selectGalaxy10SPlus....................................................passed
+And pickColor...............................................................passed
+And addtoCart...............................................................passed
+Then verifyResult789........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

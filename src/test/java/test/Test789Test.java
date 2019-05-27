@@ -1,4 +1,4 @@
-package com.VZW.TestDefTestcases;
+package test;
 import org.junit.Assert;
 
 import com.VZW.PageObjectClasses.Page789;
@@ -8,7 +8,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-public class TEST789 extends Base{
+public class Test789Test extends Base{
 
 //7.Select Galaxy S10+
 	Page789 object789 = new Page789(); 
