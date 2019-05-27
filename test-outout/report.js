@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2333644100,
+  "duration": 2136345900,
   "status": "passed"
 });
 formatter.scenario({
@@ -139,39 +139,9 @@ formatter.match({
   "location": "TEST789.smartphonesPageExists()"
 });
 formatter.result({
-  "duration": 13646572600,
+  "duration": 5775477000,
   "status": "passed"
 });
 formatter.match({
   "location": "TEST789.selectGalaxy10SPlus()"
-});
-formatter.result({
-  "duration": 8954819500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TEST789.pickColor()"
-});
-formatter.result({
-  "duration": 472476600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TEST789.addtoCart()"
-});
-formatter.result({
-  "duration": 558020600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TEST789.verifyResult789()"
-});
-formatter.result({
-  "duration": 51070100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 734176700,
-  "status": "passed"
-});
 });
