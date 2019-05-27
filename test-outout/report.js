@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2219938000,
+  "duration": 2403888000,
   "status": "passed"
 });
 formatter.scenario({
@@ -41,11 +41,4 @@ formatter.step({
 });
 formatter.match({
   "location": "TEST123.loginPageExists()"
-});
-formatter.result({
-  "duration": 9673512400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TEST123.enterWrongLogin()"
 });
